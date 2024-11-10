@@ -21,12 +21,12 @@ Añade capturas de pantalla aquí para mostrar la interfaz y el funcionamiento d
 
 ## Cómo Usar la Aplicación 🖱️
 1. **Clona el repositorio:**
-   ```bash
-   git clone https://github.com/freelinerd/Listo.git
+
+   ```git clone https://github.com/freelinerd/Listo.git```
 
 2. **Navega al directorio del proyecto:**
-``bash
-   cd Listo``
+
+  ```cd Listo```
    
 4. **Abre el archivo `index.html`** en tu navegador para iniciar la aplicación.
 
