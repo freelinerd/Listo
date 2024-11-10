@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="resources/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>Listo!</title>
+</head>
+
+<body>
+    <div class="main-content">
+        <div class="container">
+            <h1>📝 Lista de Tareas</h1>
+
+            <div class="task-input">
+                <div class="input-row">
+                    <input type="text" id="taskInput" placeholder="Ingresa una nueva tarea...">
+                    <button onclick="addTask()">Agregar</button>
+                </div>
+                <div class="selectors-row">
+                    <select id="taskPriority" class="priority-selector">
+                        <option value="low">Baja Prioridad</option>
+                        <option value="medium">Media Prioridad</option>
+                        <option value="high">Alta Prioridad</option>
+                    </select>
+                    <select id="taskCategory" class="category-selector">
+                        <option value="personal">Personal</option>
+                        <option value="trabajo">Trabajo</option>
+                        <option value="estudio">Estudio</option>
+                        <option value="hogar">Hogar</option>
+                    </select>
+                </div>
+            </div>
+
+            <ul id="taskList" class="task-list">
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <footer class="footer">
+        <p>&copy; 2024 Freeline. Todos los derechos reservados.</p>
+        <p>Contacto: <a href="mailto:contacto@freeline.com">contacto@freeline.com</a></p>
+        <p><a href="Términos y Condiciones de Uso.pdf">Términos y Condiciones de Uso</a> | <a
+                href="Políticas de Privacidad.pdf">Políticas de Privacidad</a></p>
+    </footer>
+</body>
+
+</html>
